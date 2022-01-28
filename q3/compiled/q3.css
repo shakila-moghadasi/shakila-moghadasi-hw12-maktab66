@@ -1,0 +1,24 @@
+body {
+  background-color: lightgray;
+}
+
+.hi {
+  border: 1px solid #f32df3;
+  width: 100%;
+  padding-top: 10%;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 1%;
+  background-color: #f32df3;
+}
+
+.babe {
+  border: 1px solid #f32df3;
+  width: 100%;
+  padding-top: 10%;
+  text-align: center;
+  font-size: x-large;
+  background-color: #f32df3;
+}
+
+/*# sourceMappingURL=q3.css.map */
