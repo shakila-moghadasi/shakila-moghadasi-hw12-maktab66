@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="q1.js"></script>
+    <link rel="stylesheet" href="./compiled/q1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="myForm">
+    <form onsubmit="return validate();">
+        <div>
+            <label for="firstName" class="form-label">First Name</label><br>
+            <input type="text" class="form-control" id="firstName">
+        </div>
+        <div>
+            <label for="lastName" class="form-label">Last Name</label><br>
+            <input type="text" class="form-control" id="lastName">
+        </div>
+        <div>
+            <label for="nationality">country</label><br>
+            <select class="form-select" id="nationality">
+                <option selected>Open this select menu</option>
+                <option>iran</option>
+                <option>usa</option>
+                <option>italy</option>
+                <option>gorgia</option>
+            </select>
+        </div>
+        <div> 
+          <label>subject</label><br>
+          <input class="form-control1" id="sub">
+        </div>
+        <button type="submit" class="btn" value="submitBtn" onclick="div_show()">Submit</button>
+    </form>
+    <div id="popUp">
+        <p>Your information was successfully registered!</p><br/>
+     </div>
+</div>
+</body>
+</html>
