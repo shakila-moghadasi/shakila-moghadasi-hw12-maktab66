@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="myForm">
-    <form onsubmit="return validate();">
+    <form onsubmit="return div_show(event);">
         <div>
             <label for="firstName" class="form-label">First Name</label><br>
             <input type="text" class="form-control" id="firstName">
@@ -32,7 +32,7 @@
           <label>subject</label><br>
           <input class="form-control1" id="sub">
         </div>
-        <button type="submit" class="btn" value="submitBtn" onclick="div_show()">Submit</button>
+        <button type="submit" class="btn" value="submitBtn">Submit</button>
     </form>
     <div id="popUp">
         <p>Your information was successfully registered!</p><br/>

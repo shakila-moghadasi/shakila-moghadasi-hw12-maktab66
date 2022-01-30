@@ -8,21 +8,25 @@ else{
     return true
 }
 }
-// function delay(delaytime) {
-//     myTimeout = setTimeout(div_hide(), delaytime);
-//     return myTimeout
-// }
-function div_show() {
+function delay(delaytime) {
+    myTimeout = setTimeout(div_hide, delaytime);
+    console.log();
+    return myTimeout
+    
+}
+function div_show(e) {
+    e.preventDefault()
     if(validate()){
       document.getElementById('popUp').style.display = "block";
-    //   delay(80000);
+      delay(8000);
     }
     else{
         alert("validation failed");
     }
 }
-// function div_hide(){
-//     // document.getElementById('popUp').style.display = "none";
-//     document.getElementById('popUp').style.setProperty("display", "none");
-// }
+function div_hide(){
+    console.log();
+    // document.getElementById('popUp').style.display = "none";
+    document.getElementById('popUp').style.setProperty("display", "none");
+}
  
